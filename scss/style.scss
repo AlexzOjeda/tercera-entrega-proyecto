@@ -1,0 +1,12 @@
+// las variables siempre van de primero
+
+@import './base/variables';
+@import './base/extend-y-mixin';
+
+
+@import './sections/globales';
+@import './sections/header';
+@import './sections/main';
+@import './sections/footer';
+
+

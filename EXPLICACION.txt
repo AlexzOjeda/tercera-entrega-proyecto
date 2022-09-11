@@ -1,0 +1,28 @@
+1. Cree las hojas de SCSS
+2. Vincule las hojas de SCSS y CSS
+3. Acomode la informacion por hojas de SCSS añadiendo "header, main, footer y globales"
+4. Agregue una nueva hoja de SCSS para las variables
+5. Agregando variables
+6. Agregando extend y mixin
+7. Se agrego extend a la clase (.tituloBarberos) que se encuentra en el main
+8. Se agrego mixin a la clase (.serviciosInformacion) que se encuentra en el main
+
+9. Se agrega SEO meta "keywords" y se usa content  a los HTML:
+
+Home: (Barberia Alexz, barberia, corte de cabello, corte de cabello para dama, corte de cabello para caballero, corte de cabello para niño, pelo, salon de belleza, estilista, barbero, barberia clasica)
+Contacto: (Barberia Alexz, contacto, escribe tus dudas, ayuda, atencion, cliente, barberia, salon de belleza)
+Nosotros: (Barberia Alexz, sobre nosotros, nuestra historia, informacion adicional de barberia, clase de barberia)
+Reserva hora: (Barberia Alexz, reserva de hora barberia, agendamiento, programar hora)
+Servicios: (Barberia Alexz, nuestros servicios, tipos de corte de cabello, estilos de corte, materiales utilizados, informacion sobre barberos)
+
+10. se agrega SEO meta "description" y se usa content a los HTML:
+
+Home: Barberia Alexz es el nuevo salon de corte de cabello clasico para dama, caballero y niño
+Contacto: Completa el formulario de contacto para comunicarte con nosotros
+Nosotros: Se describe breves palabras informacion sobre la barberia alexz
+Reserva hora: Puedes reservar tu hora rellenando el formulario 
+Servicios: Nuestros servicios de barberia son los mejores en corte de dama, caballero y niño
+
+
+11. se aplica git ignore a la carpeta de node_modules
+12. se sube informacion a github

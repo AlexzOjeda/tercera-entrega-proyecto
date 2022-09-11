@@ -1,0 +1,31 @@
+
+//extend
+
+%barber-primary{
+    color: $color-barber;
+    text-align: $text-aling-barber;
+    height: $height-barber;
+    width: $width-barber;
+    align-items: $align-items-barber;
+    padding: $padding-barber;
+    margin: $margin-barber;
+    display: $display-barber;
+    font-size: $font-size-barber;
+    p{
+        color: $naranja;
+    }
+}
+
+//mixin
+
+@mixin titulo-primario-los-servicios ($font-size-title) {
+    text-align: $text-aling-title;
+    height: $height-title;
+    width: $width-title;
+    align-items: $align-items-title;
+    display: $display-title;
+    color: $naranja;
+    h1{
+        font-size: $font-size-title;
+    }
+}

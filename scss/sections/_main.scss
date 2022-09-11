@@ -1,0 +1,441 @@
+/* MAIN MAIN MAIN HOME-INICIO */
+
+/* BANNER HOME */
+
+
+.bannerPantalla {
+    width: 100%;
+}
+
+
+/* BOTON DE SERVICIOS - HOME */
+
+.botonDeServicios {
+    border: 1px solid $naranja;
+    padding: 10px 25px 12px 25px;
+    text-decoration: none;
+    color: #000;
+    flex-direction: column;
+    border-radius: 9999px;
+    border-width: 2px;
+}
+
+.botonMain input:hover {
+    color: $naranja;
+    font-weight: bold;
+}
+
+/* BARBEROS HOME */
+
+.losBarberosHome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    background-image: url("../img/barbero-de-fondo.jpg");
+}
+
+.serviciosCol-2 {
+    width: 90%;
+    float: left;
+    padding: 15px;
+}
+
+.tituloBarberos {
+    @extend %barber-primary;
+}
+
+.tituloBarberos h2:hover{
+    transition: .2s;
+    transform: skew(-15deg);
+}
+
+.barberos {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #00000033;
+    margin: 40px;
+    box-shadow: 0 4px 8px 5px $naranja;
+    border-radius: 20px;
+    transition: all 500ms ease;
+    overflow: hidden;
+}
+
+
+.losBarberosHome img {
+    width: 200px;
+    height: 230px;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    transition: all 500ms ease;
+}
+
+.losBarberosHome img:hover {
+    transform: scale(1.08)
+}
+
+.barberos p {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    color: white;
+}
+
+.colorOro {
+    color: $naranja;
+}
+
+
+/* SUCRIBETE HOME */
+
+
+.suscribete {
+    margin: 25px;
+    text-align: center;
+}
+
+.tamañoDeSuscribete {
+    margin: 15PX;
+    display: flex;
+    flex-direction: column;
+}
+
+.tamañoDeSuscribete input:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.correos {
+    width: 70%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px black solid;
+    font-size: medium;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.suscribetes {
+    width: 29%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px black solid;
+    background-color: $naranja;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* MAIN MAIN MAIN HOME-FIN */
+
+/* MAIN MAIN MAIN CONTACTOS-INICIO */
+
+
+.contacto {
+    text-align: center;
+    min-height: 80vh;
+}
+
+.contactoInformacion {
+    margin: 25px;
+    font-size: 25px;
+    color: $naranja;
+}
+
+.contactoInformacion p {
+    font-size: 18px;
+    color: $gris;
+    line-height: 28px;
+}
+
+
+.nombresContacto {
+    width: 400px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    margin: 5px;
+    text-indent: 10px;
+}
+
+.correosContacto {
+    width: 400px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    margin: 5px;
+    text-indent: 10px;
+}
+
+.mensajesContacto {
+    width: 400px;
+    height: auto;
+    justify-content: space-evenly;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    margin: 5px;
+    text-indent: 10px;
+}
+
+.enviarContacto {
+    width: 200px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    margin-bottom: 200px;
+    align-items: center;
+    background-color: $naranja;
+    color: white;
+}
+
+.borrarContacto {
+    width: 200px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    margin-bottom: 200px;
+    align-items: center;
+    background-color: $naranja;
+    color: white;
+}
+
+
+/* MAIN MAIN MAIN CONTACTOS-FIN */
+
+/* MAIN MAIN MAIN NOSOTROS-INICIO */
+
+/* GRID */
+
+
+.nosotros {
+    min-height: 80vh;
+}
+
+.grid-container {
+    max-width: 980px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "nosotrosInformacion horario";
+}
+  
+  .nosotrosInformacion{ 
+    grid-area: nosotrosInformacion;
+    margin: 60px;
+    font-size: 25px;
+    color: $naranja;
+}
+  
+
+.nosotrosInformacion h2{
+    font-size: 55px;
+    color: black;
+}
+
+.nosotrosInformacion p{
+    font-size: 18px;
+    color: $gris;
+    line-height: 28px;
+}
+
+.horario{
+    grid-area: horario;
+    margin: 50px;
+    padding: 90px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: $naranja;
+}
+  
+
+.horario p{
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* MAIN MAIN MAIN NOSOTROS-FIN */
+
+/* MAIN MAIN MAIN RESERVA TU HORA-INICIO */
+
+
+.reservaTuHora {
+    text-align: center;
+}
+
+.reservaTuHoraInformacion {
+    margin: 25px;
+    font-size: 25px;
+    color: $naranja;
+}
+
+.reservaTuHoraInformacion h2 {
+    font-size: 55px;
+    color: black;
+}
+
+.reservaTuHoraInformacion p {
+    font-size: 18px;
+    color: $gris;
+    line-height: 28px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.reservaSuscribirte {
+    height: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservaSuscribirte label {
+    margin: 8px;
+}
+
+.reservaTelefono {
+    width: 400px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    margin: 5px;
+    text-indent: 10px;
+}
+
+.reservaCabello {
+    width: 400px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    margin: 5px;
+    text-indent: 10px;
+    color: $gris;
+}
+
+.reservaColor {
+    color: $gris;
+}
+
+
+/* MAIN MAIN MAIN RESERVA TU HORA-FIN */
+
+/* MAIN MAIN MAIN SERVICIOS-INICIO */
+
+
+.nuestrosServicios {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.serviciosInformacion {
+    @include titulo-primario-los-servicios (2.5rem);
+}
+
+.serviciosInformacion h1:hover{
+    color: black;
+    transition: .2s;
+    transform: skew(-15deg);
+}
+
+.serviciosPublicos {
+    width: 320px;
+    height: 340px;
+    box-shadow: 0 2px 2px #00000033;
+    margin: 40px;
+    box-shadow: 0 4px 8px 5px $naranja;
+    border-radius: 20px;
+    transition: all 500ms ease;
+    overflow: hidden;
+}
+
+.nuestrosServicios img {
+    width: 320px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    transition: all 500ms ease;
+}
+
+.nuestrosServicios img:hover {
+    transform: scale(1.08)
+}
+
+.nuestrosServicios p {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    color: $gris;
+}
+
+.youtube {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.botonMain {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 10px 0;
+}
+
+.serviciosCol-1 {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.serviciosRow::after {
+    content: "";
+    display: table;
+    min-height: 30vh;
+}
+
+
+/* MAIN MAIN MAIN SERVICIOS-FIN */
